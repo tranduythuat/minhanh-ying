@@ -572,27 +572,6 @@
     </script>
 
     <script>
-        // Hàm để hiển thị một trang và ẩn các trang khác
-        function showPage(pageId) {
-            // Lưu trang đang hiển thị vào localStorage
-            localStorage.setItem("currentPage", pageId);
-
-            // Ẩn tất cả các trang
-            const pages = document.querySelectorAll(".page");
-            pages.forEach((page) => (page.style.display = "none"));
-
-            // Hiển thị trang được chọn
-            const pageToShow = document.getElementById(pageId);
-            pageToShow.style.display = "block";
-        }
-
-        // Khi trang web được tải lại, kiểm tra xem trang nào cần hiển thị
-        document.addEventListener("DOMContentLoaded", () => {
-            const savedPage = localStorage.getItem("currentPage") || "page1"; // Mặc định là 'page1' nếu không có giá trị
-            showPage(savedPage);
-        });
-    </script>
-    <script>
         const scriptURL =
             "";
         const form = document.forms["kim-matthew"];
@@ -668,63 +647,6 @@
         // Khởi tạo AOS
         AOS.init();
     </script>
-
-    <script>
-        // Modal 1
-        const modal1 = document.getElementById("myModal1");
-        //   const openModalBtn1 = document.getElementById("openModalBtn1");
-        // const close1 = document.getElementById("close1");
-
-        // Modal 2
-        const modal2 = document.getElementById("myModal2");
-        //   const openModalBtn2 = document.getElementById("openModalBtn2");
-        // const close2 = document.getElementById("close2");
-
-        // Modal 3
-        const modal3 = document.getElementById("myModal3");
-        //   const openModalBtn3 = document.getElementById("openModalBtn3");
-        // const close3 = document.getElementById("close3");
-
-        // Mở các modal
-        //   openModalBtn1.onclick = function () {
-        //     modal1.style.display = "block";
-        //   };
-
-        //   openModalBtn2.onclick = function () {
-        //     modal2.style.display = "block";
-        //   };
-
-        //   openModalBtn3.onclick = function () {
-        //     modal3.style.display = "block";
-        //   };
-
-        // Đóng các modal
-        // close1.onclick = function () {
-        //     modal1.style.display = "none";
-        // };
-
-        // close2.onclick = function () {
-        //     modal2.style.display = "none";
-        // };
-
-        // close3.onclick = function () {
-        //     modal3.style.display = "none";
-        // };
-
-        // Khi người dùng nhấn vào bất kỳ nơi nào ngoài modal, đóng modal
-        window.onclick = function (event) {
-            if (event.target == modal1) {
-                modal1.style.display = "none";
-            }
-            if (event.target == modal2) {
-                modal2.style.display = "none";
-            }
-            if (event.target == modal3) {
-                modal3.style.display = "none";
-            }
-        };
-    </script>
-
     <script src="./thiep/thiep.js"></script>
 </body>
 
