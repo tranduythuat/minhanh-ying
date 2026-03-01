@@ -1,0 +1,72 @@
+@media (max-width:500px) {
+	.container {
+		width: 100%;
+	}
+
+    .dot {
+        font-size: calc((6 / 500) * 100vw);
+    }
+
+    .p-til {
+        font-size: calc((10 / 500) * 100vw);
+        letter-spacing: calc((1 / 500) * 100vw);
+    }
+    .til-check {
+        font-size: calc((10 / 500) * 100vw);
+    }
+
+    .form-select,
+    textarea {
+        font-size: calc((11 / 500) * 100vw);
+    }
+
+    .save-the-date .subtext,
+    .lb-inv2,
+    .lb-add2,
+    .til,
+    .inp-ten {
+        font-size: calc((12 / 500) * 100vw);
+    }
+
+    .p-talk, 
+    .xacnhan,
+    .lb-end,
+    .lb-end2 {
+        font-size: calc((13 / 500) * 100vw);
+    }
+
+    .save-the-date .title {
+        font-size: calc((15 / 500) * 100vw);
+    }
+
+    .lb-dot2,
+    .lb-inv3,
+    .lb-date,
+    .btn-map  {
+        font-size: calc((16 / 500) * 100vw);
+    }
+    
+    .logo,
+    .lb-til1 {
+        font-size: calc((25 / 500) * 100vw);
+    }
+
+    .date,
+    .lb-add1,
+    .logo span.spanider,
+    .faqs .content .title {
+        font-size: calc((32 / 500) * 100vw);
+    }
+
+    .lb-inv1 {
+        font-size: calc((40 / 500) * 100vw);
+    }
+
+    .lb-fir {
+        font-size: calc((43 / 500) * 100vw);
+    }
+
+    .lb-and {
+        font-size: calc((48 / 500) * 100vw);
+    }
+}

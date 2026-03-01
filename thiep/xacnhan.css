@@ -1,0 +1,1422 @@
+@font-face {
+	font-family: 'SVN-Gilroy XLight';
+	src: url('../thiep/fonts/SVN-GilroyXLight.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyXLight.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyXLight.svg#SVN-GilroyXLight') format('svg');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy XLight';
+	src: url('../thiep/fonts/SVN-GilroyXLightItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyXLightItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyXLightItalic.svg#SVN-GilroyXLightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-Gilroy.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-Gilroy.woff') format('woff'),
+		url('../thiep/fonts/SVN-Gilroy.svg#SVN-Gilroy') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyMedium.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyMedium.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyMedium.svg#SVN-GilroyMedium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyHeavy.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyHeavy.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyHeavy.svg#SVN-GilroyHeavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyLight.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyLight.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyLight.svg#SVN-GilroyLight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroySemiBold.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroySemiBold.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroySemiBold.svg#SVN-GilroySemiBold') format('svg');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyThin.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyThin.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyThin.svg#SVN-GilroyThin') format('svg');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyBold.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyBold.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyBold.svg#SVN-GilroyBold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyBlack.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyBlack.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyBlack.svg#SVN-GilroyBlack') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyItalic.svg#SVN-GilroyItalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyBoldItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyBoldItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyBoldItalic.svg#SVN-GilroyBoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyMediumItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyMediumItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyMediumItalic.svg#SVN-GilroyMediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyLightItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyLightItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyLightItalic.svg#SVN-GilroyLightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyHeavyItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyHeavyItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyHeavyItalic.svg#SVN-GilroyHeavyItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyBlackItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyBlackItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyBlackItalic.svg#SVN-GilroyBlackItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroyThinItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyThinItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyThinItalic.svg#SVN-GilroyThinItalic') format('svg');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy';
+	src: url('../thiep/fonts/SVN-GilroySemiBoldItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroySemiBoldItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroySemiBoldItalic.svg#SVN-GilroySemiBoldItalic') format('svg');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy XBold';
+	src: url('../thiep/fonts/SVN-GilroyXBoldItalic.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyXBoldItalic.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyXBoldItalic.svg#SVN-GilroyXBoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SVN-Gilroy XBold';
+	src: url('../thiep/fonts/SVN-GilroyXBold.woff2') format('woff2'),
+		url('../thiep/fonts/SVN-GilroyXBold.woff') format('woff'),
+		url('../thiep/fonts/SVN-GilroyXBold.svg#SVN-GilroyXBold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: '1FTV VIP Bastliga One';
+	src: url('../thiep/fonts/1FTVVIPBastligaOne.woff2') format('woff2'),
+		url('../thiep/fonts/1FTVVIPBastligaOne.woff') format('woff'),
+		url('../thiep/fonts/1FTVVIPBastligaOne.svg#1FTVVIPBastligaOne') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+:root {
+	--primary-color: #7E1327;
+	--font-gil: 'SVN-Gilroy';
+	--font-ftv: '1FTV VIP Bastliga One';
+}
+
+
+[data-aos] {
+	will-change: opacity, transform;
+}
+
+
+/* Hiệu ứng fade-up */
+.box-time,
+.date-time,
+.box-add {
+	transform: translateY(50px);
+	opacity: 0;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.box-time.visible,
+.date-time.visible,
+.box-add.visible {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+/* Hiệu ứng zoom-in */
+.lb-fir,
+.p-talk {
+	transform: scale(0.5);
+	opacity: 0;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.lb-fir.visible,
+.p-talk.visible {
+	transform: scale(1);
+	opacity: 1;
+}
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 500px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.container-wrapper {
+	/* height: 1000px; */
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+
+#page1 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+}
+
+.img-fir {
+	display: block;
+	margin: 30px 0 50px;
+}
+
+.img-fir1 {
+	width: 20%;
+}
+
+.name-fir {
+	font-family: var(--font-gil);
+	color: #fff;
+	font-size: 2.5em;
+	margin-bottom: 50px;
+}
+
+.lb-fir {
+	font-size: 43px;
+}
+
+
+
+.and {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 2% 0;
+}
+
+.line {
+	width: 50px;
+	border: none;
+	border-top: 1px solid #fff;
+	/* Đường line màu đen */
+}
+
+.lb-and {
+	font-family: var(--font-ftv);
+	font-size: 48px;
+	padding: 0 6%;
+}
+
+
+.box-save,
+.box-click {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+	color: #fff;
+}
+
+.lb-save1 {
+	font-size: .8em;
+	letter-spacing: 1.7px;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.save-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.dot {
+	font-size: .4em;
+	;
+}
+
+.lb-dot {
+	font-style: italic;
+	font-size: .8em;
+	padding: 0 20px;
+
+}
+
+
+.box-click {
+	align-items: center;
+	justify-content: center;
+}
+
+.img-click {
+	width: 50%;
+}
+
+.lb-click {
+	font-weight: 500;
+	font-style: italic;
+	margin: 20px 0 400px;
+}
+
+.btn-home {
+	background: none;
+	font-family: var(--font-gil);
+	padding: 5px;
+	border-radius: 20px;
+	display: flex;
+	font-size: .5em;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+#page2 {
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+}
+
+.save-3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 10% 0 2%;
+}
+
+.dot {
+	font-size: 6px;
+}
+
+.lb-dot2 {
+	font-style: italic;
+	font-size: 16px;
+	padding: 0 4%;
+}
+
+.name-sed {
+	font-family: var(--font-gil);
+	color: var(--primary-color);
+	margin-bottom: 14%;
+}
+
+.and {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.line2 {
+	width: 50px;
+	border: none;
+	border-top: 1px solid var(--primary-color);
+	/* Đường line màu đen */
+}
+
+.ring {
+	width: 15%;
+	margin-bottom: 8%;
+}
+
+.box-inv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: var(--font-gil);
+	margin: 10% 0 4%;
+	line-height: 1.2;
+}
+
+.save-the-date {
+	padding: 0 5%;
+	font-size: 12px;
+}
+
+.save-the-date .title {
+	margin-bottom: 3%;
+	font-size: 15px;
+}
+
+.save-the-date .subtext {
+	margin-bottom: 3%;
+	font-size: 12px;
+}
+
+.lb-inv1 {
+	font-size: 40px;
+	margin-bottom: 10%;
+}
+
+.lb-inv2 {
+	font-weight: 700;
+	font-size: 12px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+.calendar {
+	margin: 16% 0;
+}
+
+.car {
+	width: 7%;
+}
+
+.date-time,
+.address,
+.box-add {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: var(--font-gil);
+}
+
+.lb-date {
+	font-size: 16px;
+}
+
+.date {
+	font-size: 32px;
+}
+
+
+.box-dot {
+	margin: 10% 0 14%;
+}
+
+
+.dot2 {
+	font-size: .4em;
+}
+
+.lb-add1 {
+	font-size: 2em;
+}
+
+.lb-add2 {
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 10%;
+}
+
+.img-add {
+	width: 70%;
+}
+
+.btn-map {
+	display: flex;
+	width: 30%;
+	padding: 1%;
+	background-color: var(--primary-color);
+	text-decoration: none;
+	font-weight: 700;
+	color: #fff;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	margin: 4% 0 30%;
+	cursor: pointer;
+}
+
+
+.box-timeline,
+.box-time {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+}
+
+.box-time {
+	margin-bottom: 50px;
+}
+
+.img-time {
+	width: 40%;
+}
+
+.lb-time {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.img-time1 {
+	width: 30%;
+}
+
+.img-time2 {
+	width: 20%;
+}
+
+.img-time3 {
+	width: 10%;
+}
+
+.box-timeline {
+	margin-bottom: 100px;
+}
+
+.talk {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+	line-height: 20px;
+	margin-bottom: 20%;
+}
+
+.logo {
+	font-size: 25px;
+	line-height: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30%;
+}
+
+.logo span.spanider {
+	display: block;
+	font-size: 32px;
+	line-height: .5;
+	position: relative;
+	top: -4px;
+}
+
+.p-talk {
+	font-size: 13px;
+	margin-bottom: 4%;
+}
+
+.img-talk {
+	width: 10%;
+}
+
+
+
+.dresscode {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+}
+
+
+.lb-dress {
+	font-size: 1.7em;
+	margin-bottom: 20px;
+}
+
+.img-dress {
+	width: 35%;
+}
+
+.img-dress2 {
+	width: 50%;
+}
+
+
+.img-center {
+	margin: 12% 0;
+}
+
+.box-dress {
+	border: 2px solid var(--primary-color);
+	display: flex;
+	align-items: center;
+	font-family: var(--font-gil);
+	gap: 10px;
+	padding: 5px;
+	border-radius: 40px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.sex {
+	font-size: .8em;
+	font-weight: 700;
+}
+
+.class {
+	font-size: .7em;
+}
+
+.img-color1 {
+	width: 15%;
+}
+
+.img-color {
+	width: 60%;
+	transition: transform 0.3s;
+}
+
+.img-color:hover {
+	transform: scale(1.1);
+	/* Phóng to khi hover */
+}
+
+
+.center {
+	width: 8%;
+}
+
+
+.box-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* margin-bottom: 20px; */
+}
+
+.box-til {
+	border: 2px solid var(--primary-color);
+	border-radius: 10px;
+	padding: 6%;
+	font-family: var(--font-gil);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 4%;
+}
+
+.lb-til1 {
+	font-size: 25px;
+}
+
+
+.dina {
+	margin: 10px 0;
+}
+
+.dot3 {
+	font-size: .4em;
+}
+
+.p-til {
+	font-size: 9.6px;
+	letter-spacing: 1px;
+}
+
+
+.forrm {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0 10%;
+}
+
+.hr1 {
+	border: 0;
+	border-top: 2px solid var(--primary-color);
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 80%;
+	text-align: center;
+}
+
+.feed-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 10px 0 0 0;
+	line-height: 20px;
+}
+
+
+.in-fe {
+	font-size: 11px;
+	font-weight: 300;
+	font-family: var(--font-gil);
+	padding: 10px;
+	/* margin-top: 480px; */
+}
+
+.til {
+	display: flex;
+	text-align: center;
+	font-family: var(--font-gil);
+	font-size: 10px;
+}
+
+.til-custom {
+	margin-bottom: 2%;
+}
+
+[type="radio"] {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	/* overflow: hidden; */
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	/* white-space: nowrap; */
+}
+
+
+.til {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+	font-size: 12px;
+	margin-top: 4%;
+}
+
+.container-check {
+	position: relative;
+	display: flex;
+	gap: 10%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4%;
+	font-family: var(--font-gil);
+	font-weight: 300;
+}
+
+.container-check1 {
+	margin-top: 5px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* margin: 0 auto; */
+	font-family: var(--font-gil);
+	font-weight: 300;
+}
+
+
+.box-feed:checked+label {
+	color: #fff;
+	background-color: #FBE1D7;
+}
+
+.check-box:hover {
+	background-color: var(--primary-color);
+	color: #fff;
+}
+
+.box-feed {
+	border-radius: 20px;
+	width: 100px;
+	flex: 1;
+}
+
+.box-check {
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-gil);
+	border-radius: 20px;
+	/*margin: 0 15px;*/
+}
+
+.box-feed:checked+label {
+	color: #fff;
+	background-color: #FBE1D7;
+}
+
+
+.til-check {
+	/* margin: 0 auto; */
+	font-style: normal;
+	font-size: 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+.check-box {
+	/* width: 150px; */
+	flex: 1;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 1.5%;
+	/* margin: 5px 20px; */
+	border-radius: 20px;
+	font-style: normal;
+	/* background-color: #fff; */
+}
+
+.check-box2 {
+	/* width: 150px; */
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 5px 10px;
+	margin: 5px 20px;
+	border-radius: 20px;
+	font-style: normal;
+	/* background-color: #fff; */
+}
+
+.check-box1 {
+	width: 350px;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 5px 10px;
+	margin: 5px 20px;
+	border-radius: 20px;
+	font-style: normal;
+	/* background-color: #fff; */
+}
+
+.check-box3 {
+	width: 65px;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 5px 10px;
+	margin: 5px 20px;
+	border-radius: 20px;
+	font-style: normal;
+	/* background-color: #fff; */
+}
+
+.box-feed:checked+label {
+	color: #fff;
+	border: 2px solid var(--primary-color);
+	background-color: var(--primary-color);
+}
+
+.box-ten {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	font-family: 'SVN-Gontham';
+}
+
+.inp-ten {
+	/* width: 350px; */
+	height: 25px;
+	width: 100%;
+	text-align: left;
+	border-radius: 20px;
+	border: 2px solid var(--primary-color);
+	font-size: 12px;
+	font-weight: 300;
+	padding: 1% 3%;
+	margin: 5px 0;
+	font-family: var(--font-gil);
+	background: none;
+}
+
+.p-til,
+.title {
+	text-transform: uppercase;
+}
+
+.form-select {
+	width: 100%;
+	height: 25px;
+	padding: 1% 3%;
+	margin-top: 1%;
+	border-radius: 20px;
+	background: transparent;
+	font-size: 11px;
+	color: #6e7881;
+	outline: none;
+	border: 2px solid var(--primary-color);
+	transition: border-color 0.3s ease;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image: url("../../assets/images/chevron_icon.png");
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 9px;
+	cursor: pointer;
+}
+
+textarea {
+	width: 100%;
+	aspect-ratio: 4 / 1;
+	text-align: left;
+	border-radius: 20px;
+	border: 2px solid var(--primary-color);
+	font-size: 11px;
+	font-weight: 300;
+	padding: 2% 3%;
+	margin-top: 2%;
+	font-family: var(--font-gil);
+	background: none;
+}
+
+input::placeholder {
+	font-size: 10px;
+}
+
+input:focus,
+textarea:focus {
+	color: var(--primary-color);
+}
+
+textarea::placeholder {
+	/* font-size: 10px; */
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 40px;
+}
+
+.xacnhan {
+	font-size: 13px;
+	background: var(--primary-color);
+	color: var(--primary-color);
+	margin: 5px 10px 20px;
+	border-radius: 20px;
+	border: 1px solid var(--primary-color);
+	cursor: pointer;
+	width: 35%;
+	padding: 1.5%;
+	z-index: 1;
+	color: #fff;
+	position: relative;
+}
+
+.xacnhan:hover {
+	background: #fff;
+	color: var(--primary-color);
+}
+
+.img-end {
+	width: 100%;
+}
+
+.box-end {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	/* margin: 50px 0 60px 0; */
+	line-height: 15px;
+	color: #fff;
+	font-weight: 300;
+
+	margin-top: 40px;
+}
+
+.lb-end1 {
+	font-family: var(--font-gotham);
+	font-size: 10px;
+
+	margin-top: 25px;
+}
+
+.gift {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+/* Đảm bảo nút không có viền, nền, hoặc màu bao quanh */
+#openModalBtn {
+	background: none;
+	/* Xóa nền của nút */
+	border: none;
+	/* Xóa viền của nút */
+	padding: 0;
+	/* Xóa khoảng cách trong nút */
+	cursor: pointer;
+	/* Đảm bảo khi hover chuột, con trỏ thay đổi thành hình bàn tay */
+
+	/* Căn giữa nội dung của nút */
+	display: flex;
+	justify-content: center;
+	/* Căn giữa theo chiều ngang */
+	align-items: center;
+	/* Căn giữa theo chiều dọc */
+}
+
+/* Nếu có hình ảnh, giảm kích thước xuống 20% và căn giữa */
+#openModalBtn img {
+	border: none;
+	/* Xóa viền của hình ảnh */
+	display: block;
+	/* Đảm bảo hình ảnh không có khoảng cách bên dưới */
+	width: 50%;
+	/* Giảm kích thước hình ảnh xuống 20% */
+	height: auto;
+	/* Giữ tỷ lệ hình ảnh */
+}
+
+
+.btn-modal {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.lb-gift {
+	font-family: var(--font-gil);
+	font-weight: 600;
+	font-size: .7em;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+/* Modal Style */
+.modal {
+	display: none;
+	/* Ẩn modal khi không cần thiết */
+	position: fixed;
+	/* Đặt modal ở vị trí cố định */
+	z-index: 1;
+	/* Đảm bảo modal ở trên cùng */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	/* Màu nền mờ */
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	z-index: 999;
+	margin-top: 20px;
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.img-qr {
+	width: 80%;
+	height: auto;
+}
+
+.img-gift {
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.img-gift:hover {
+	transform: scale(1.1);
+	/* Phóng to khi hover */
+}
+
+
+.end {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: var(--font-gil);
+	margin-bottom: 50px;
+}
+
+.lb-end {
+	font-size: 13px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.lb-end2 {
+	font-size: 13px;
+	font-style: italic;
+	font-family: var(--font-gotham);
+}
+
+
+/* Loading screen container */
+.loading-container {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}
+
+/* Spinner animation */
+.spinner {
+	border: 6px solid rgba(255, 255, 255, 0.3);
+	border-top: 6px solid #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
+}
+
+/* Spinner animation keyframes */
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.custom-popup {
+	font-family: var(--font-gil);
+}
+
+.custom-title {
+	font-weight: bold;
+}
+
+.custom-confirm-button {
+	text-align: center;
+	display: inline-block;
+	border: 2px solid var(--primary-color);
+	padding: 10px 20px !important;
+	margin: 5px 20px !important;
+	border-radius: 20px !important;
+	font-style: normal;
+	background-color: transparent;
+	color: var(--primary-color);
+
+	font-size: 13px;
+	font-weight: 400;
+
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* faqs */
+.faqs {
+	width: 100%;
+}
+
+.faqs .content {
+	width: 100%;
+	aspect-ratio: 500/250;
+	color: var(--primary-color);
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+}
+
+.faqs .content .title {
+	font-size: 32px;
+	font-family: "Bellamy-Stevenson", sans-serif;
+	margin-top: 2%;
+}
+
+.faqs .content .faq-container {
+	font-family: "1FTV-VIP-Qerginas", sans-serif;
+	max-width: 400px;
+	width: 100%;
+	margin-top: 8%;
+}
+
+.faqs .content .faq-container .faq-item {
+	border: 2px solid var(--primary-color);
+	border-radius: 8px;
+	margin-bottom: 2%;
+	overflow: hidden;
+}
+
+.faqs .content .faq-container .faq-item .faq-header {
+	width: 100%;
+	background: transparent;
+	font-family: inherit;
+	color: var(--primary-color);
+	padding: 3% 4% 2%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+}
+
+.faqs .content .faq-container .faq-item .faq-header .icon {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.faqs .content .faq-container .faq-item .faq-content {
+	color: var(--primary-color);
+	height: 0;
+	overflow: hidden;
+}
+
+.faqs .content .faq-container .faq-item .faq-content p {
+	text-align: justify;
+	padding: 0 4% 3%;
+	font-size: 12px;
+}
+
+@media (max-width: 500px) {
+	.faqs .content .faq-container {
+		max-width: 80vw;
+	}
+
+	.faqs .content .faq-container .faq-item .faq-header {
+		font-size: 3.2vw;
+	}
+
+	.faqs .content .faq-container .faq-item .faq-header .icon {
+		font-size: 3.2vw;
+	}
+
+	.faqs .content .faq-container .faq-item .faq-content p {
+		font-size: 2.4vw;
+	}
+}
+
+
+/* music */
+.music-box {
+	display: flex;
+	position: fixed;
+	bottom: 10px;
+	right: 1%;
+}
+
+.music-box .label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 90px;
+}
+
+.music-box .label span {
+	position: absolute;
+	right: -20%;
+	width: 100%;
+	font-family: "Lora", sans-serif;
+	font-size: 12px;
+	background-color: rgb(138, 121, 89);
+	color: antiquewhite;
+	padding: 3% 0% 3% 20%;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	opacity: 0.9;
+}
+
+.music-box .player {
+	max-width: 55px;
+	width: 100%;
+	aspect-ratio: 1;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.player #iconSvg {
+	width: 100%;
+	height: auto;
+	fill: var(--text-title-color);
+}
+
+@media (max-width: 500px) {
+	.music-box {
+		bottom: 2vw;
+	}
+
+	.music-box .label {
+		width: 18vw;
+	}
+
+	.music-box .label span {
+		font-size: 2.4vw;
+	}
+
+	.music-box .player {
+		max-width: 11vw;
+	}
+}
+
+.spin {
+	animation: spin 4s linear infinite;
+}
+
+/* Định nghĩa hoạt ảnh xoay */
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
