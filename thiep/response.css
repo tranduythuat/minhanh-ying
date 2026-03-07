@@ -16,6 +16,7 @@
     }
 
     .form-select,
+    .inp-ten,
     textarea {
         font-size: calc((11 / 500) * 100vw);
     }
@@ -23,8 +24,7 @@
     .save-the-date .subtext,
     .lb-inv2,
     .lb-add2,
-    .til,
-    .inp-ten {
+    .til {
         font-size: calc((12 / 500) * 100vw);
     }
 
