@@ -402,6 +402,7 @@
 #page2 {
 	color: var(--primary-color);
 	border: 1px solid var(--primary-color);
+	width: 100%;
 }
 
 .save-3 {
