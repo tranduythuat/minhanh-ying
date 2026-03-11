@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anh & Ying-Chuan</title>
 
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="https://i.postimg.cc/s2TWb66h/16fe9d86c40f4a51131e-(1)-(1).jpg" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="400" />
 
@@ -273,17 +273,17 @@
                         </p>
                     </div>
                     <div class="forrm">
-                        <form action="" name="kim-matthew">
+                        <form action="" name="minhanh-yinh">
                             <div class="til til-custom">
                                 <label for="" class="title">Do you think you will be able to attend*?
                                 </label>
                             </div>
                             <div class="container-check">
-                                <input class="box-feed" type="radio" value="CÓ" id="yes" name="CONFIRM" required />
+                                <input class="box-feed" type="radio" value="Planning on being there!" id="yes" name="CONFIRM" required />
                                 <label class="check-box" for="yes">
                                     <h3 class="til-check">Planning on being there!</h3>
                                 </label>
-                                <input class="box-feed" type="radio" value="KHÔNG" id="no" name="CONFIRM" required />
+                                <input class="box-feed" type="radio" value="Sadly can’t make it" id="no" name="CONFIRM" required />
                                 <label class="check-box" for="no">
                                     <h3 class="til-check">Sadly can’t make it</h3>
                                 </label>
@@ -295,7 +295,7 @@
                                     placeholder="NUMBER OF ATTENDANCE" min="0" max="9" maxlength="1" /> -->
                             </div>
                             <div class="form-group fade-in">
-                                <select class="form-select" name="guest_number">
+                                <select class="form-select" name="guest_number" required>
                                     <option value="" disabled selected>
                                         How many people might attend with you (including yourself)*?
                                     </option>
@@ -322,7 +322,7 @@
                             </div> -->
 
                             <div class="box-ten">
-                                <textarea id="message" name="ANOTHER" rows="4" cols="50"
+                                <textarea id="message" name="WISH" rows="4" cols="50"
                                     placeholder="Feel free to leave a message or well wishes for the couple 💌? &#10; 給我們的小小祝福💛
                                     "></textarea>
                             </div>
@@ -575,18 +575,31 @@
 
     <script>
         const scriptURL =
-            "";
-        const form = document.forms["kim-matthew"];
+            "https://script.google.com/macros/s/AKfycbyTE-8vjdFOMv0sm8WaFOZu-4p0UxQeATNXJQUJTRB1eeM_E3CwR5n6y8OsHIYTCyUV/exec?sheet=confirm";
+        const form = document.forms["minhanh-yinh"];
 
         form.addEventListener("submit", (e) => {
             e.preventDefault(); // Ngừng việc gửi form mặc định
 
             document.getElementById("loading-container").style.display = "flex";
 
+            let formData = new FormData(form);
+            let data = Object.fromEntries(formData.entries());
+            const confirm = data.CONFIRM;
+            const name = data.NAME;
+            const guest_number = data.guest_number ?? "1";
+            const wish = data.WISH;
+
+
             // Gửi dữ liệu form đi
             fetch(scriptURL, {
                 method: "POST",
-                body: new FormData(form),
+                body: new URLSearchParams({
+                    name,
+                    confirm,
+                    guest_number,
+                    wish,
+                }),
             })
                 .then((response) => {
                     if (response.ok) {
@@ -623,7 +636,7 @@
 
                         Swal.fire({
                             title: "Oops!",
-                            text: "Lỗi mất rồi thử lại giúp chúng mình nhé",
+                            text: "Something went wrong. Please try again.",
                             icon: "error",
                             confirmButtonText: "OK",
                         });
@@ -637,7 +650,7 @@
 
                     Swal.fire({
                         title: "Oops!",
-                        text: "Lỗi mất rồi thử lại giúp chúng mình nhé",
+                        text: "Something went wrong. Please try again.",
                         icon: "error",
                         confirmButtonText: "OK",
                     });
